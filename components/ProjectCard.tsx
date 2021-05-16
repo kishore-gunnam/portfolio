@@ -97,8 +97,7 @@ export default function ProjectCard({ title, description, href, icon, tags=null 
             <span className="sr-only">Music Streaming Application</span>
 
             <svg
-              className="h-8 w-8 min-w-lg text-gray-900 dark:text-gray-100"
-              class="w-6 h-6"
+              className="h-8 w-8 min-w-lg text-gray-900 dark:text-gray-100 w-6 h-6" 
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

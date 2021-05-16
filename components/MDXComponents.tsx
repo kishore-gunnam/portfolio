@@ -11,7 +11,7 @@ import ConsCard from "@/components/ConsCard";
 import Step from "@/components/Step";
 import StepLarge from "@/components/StepLarge";
 import StepCheck from "@/components/StepCheck";
-import VideoDemo from "./VideoDemo";
+// import VideoDemo from "./VideoDemo";
 
 const CustomLink = (props) => {
   const href = props.href;
@@ -37,7 +37,7 @@ const MDXComponents = {
   StepLarge,
   StepCheck,
   Tweet,
-  VideoDemo,
+  // VideoDemo,
 };
 
 export default MDXComponents;

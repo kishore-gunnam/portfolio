@@ -12,3 +12,5 @@
 // }
 
 // export default admin.database();
+
+export default {};

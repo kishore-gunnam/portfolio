@@ -11,13 +11,14 @@ export default function Contact() {
     );
   };
   const [form, setForm] = useState({
-    state: null
+    state: null,
+    message: null
   });
   const inputEl = useRef(null); 
   
   const subscribe = async (e) => {
     e.preventDefault();
-    setForm({ state: "loading" });
+    setForm({ state: "loading", message: null });
 
     const res = await fetch("/api/sendgrid", {
       body: JSON.stringify({

@@ -4,6 +4,7 @@ import BlogPost from "@/components/BlogPost";
 import ProjectCard from "@/components/ProjectCard";
 import Timeline from "@/components/Timeline";
 import Contact from "@/components/Contact";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,9 +14,13 @@ export default function Home() {
       image="/avatar.jpg"
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+        <div className="flex flex-row items-center space-x-4 mb-8">
+          <img className="rounded-full h-24 w-24 " src="/assets/kishoregunnam.jpeg" />
+          
+        </div>
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          Hey, I’m Kishore Gunnam
-        </h1>
+            Hey, I’m Kishore Gunnam
+          </h1>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
           I’m a developer, writer, and creator. I work at{" "}
           <span className="font-bold">
@@ -54,7 +59,7 @@ export default function Home() {
           slug="css-with-react"
         /> */}
          <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-          Current Working Projects
+          Currently Working on
         </h3>
         <ProjectCard
           title="Algochurn"

@@ -11,6 +11,7 @@ export default function ResourcesCard({
   return (
     <Link href={link}>
       <a
+        rel="nofollow"
         className="border border-grey-200 dark:border-gray-900 rounded p-4 w-full"
         {...rest}
         target="__blank"

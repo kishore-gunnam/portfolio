@@ -1,17 +1,21 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import NextLink from "next/link";
 import { useTheme } from "next-themes";
 
 import Footer from "@/components/Footer";
+import Banner from "./Banner";
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
   // After mounting, we have access to the theme
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    setMounted(true);
+    // setTheme('dark');
+  }, []);
 
   const { children, ...customMeta } = props;
   const router = useRouter();
@@ -33,7 +37,10 @@ export default function Container(props) {
           property="og:url"
           content={`https://kishoregunnam.com${router.asPath}`}
         />
-        <link rel="canonical" href={`https://kishoregunnam.com${router.asPath}`} />
+        <link
+          rel="canonical"
+          href={`https://kishoregunnam.com${router.asPath}`}
+        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Kishore Gunnam" />
         <meta property="og:description" content={meta.description} />
@@ -48,6 +55,7 @@ export default function Container(props) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
+      <Banner />
       <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 mx-auto bg-white dark:bg-black bg-opacity-60">
         <a href="#skip" className="sr-only focus:not-sr-only">
           Skip to content
@@ -90,12 +98,6 @@ export default function Container(props) {
           </NextLink>
           <NextLink href="/blog">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
-          </NextLink>
-
-          <NextLink href="/dashboard">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Dashboard
-            </a>
           </NextLink>
           <NextLink href="/snippets">
             <a className="p-1 sm:p-4 hidden md:inline text-gray-900 dark:text-gray-100">

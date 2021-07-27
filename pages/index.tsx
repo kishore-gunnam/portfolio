@@ -44,7 +44,7 @@ export default function Home() {
         <ProjectCard
           title="Tailwind Master Kit"
           description="Beautiful, Handcrafted, ready-to-use components and templates for your next Tailwind web app project."
-          href="#"
+          href="https://www.tailwindmasterkit.com/"
           icon="tailwindmasterkit"
         />
 

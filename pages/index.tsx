@@ -51,6 +51,13 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Projects
         </h3>
+        <ProjectCard
+          title="Femenlife"
+          description="Built a ecommerce application with real time payments and dashboard; Integrated Delhivery and RazorpayX"
+          href="https://femenlife.com/"
+          icon="femenlife"
+          tags={["RazorpayX", "Next.js", "Spring boot", "Delhivery"]}
+        />
 
         <ProjectCard
           title="Covid Rescue"

@@ -23,39 +23,52 @@ export default function Home() {
         <h1 className="font-bold text-2xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Hey, I’m Kishore Gunnam
         </h1>
-        <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-          I’m a developer, writer, and creator. I work at{" "}
+        <h2 className="prose text-gray-600 dark:text-gray-400">
+          🖥 I’m a Full stack developer, creator, and freelancer.
+        </h2>
+        <h2 className="prose text-gray-600 dark:text-gray-400">
+          🗒 I work at{" "}
           <span className="font-bold">
             <span className="text-blue-500">m</span>roads
           </span>{" "}
-          as a Software Engineer. You've discovered my piece on the internet
-          –&nbsp;
-          <Link href="/blog">
-            <a className="text-blue-500 hover:underline">
-              checkout my blog&nbsp;
-            </a>
-          </Link>
-          while you're here. <br />I write about technology, learning and memes.
+          as a Senior Software Engineer.
+          <br />
         </h2>
-
+        🔨 Building Tailwind Master Kit and Algochurn.
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Currently Working on
+        </h3>
+        <ProjectCard
+          title="Algochurn"
+          description="Your last moment friend before a Technical Interview round. Practice the most popular Data Structures & Algorithms"
+          href="https://www.algochurn.com/"
+          icon="algochurn"
+          tags={["Next.js", "TailwindCSS", "Monaco", "Algorithms", "Postgresql"]}
+        />
+
+
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+          Projects
         </h3>
         <ProjectCard
           title="Tailwind Master Kit"
           description="Beautiful, Handcrafted, ready-to-use components and templates for your next Tailwind web app project."
           href="https://www.tailwindmasterkit.com/"
           icon="tailwindmasterkit"
+          tags={["Tailwind", "Next.js", "Freemium", "gumroad"]}
         />
-
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-          Projects
-        </h3>
         <ProjectCard
-          title="Femenlife"
-          description="Built a ecommerce application with real time payments and dashboard; Integrated Delhivery and RazorpayX"
-          href="https://femenlife.com/"
-          icon="femenlife"
+          title="ubergrad"
+          description="Ubergrad.com is a study abroad platform that helps students to APPLY and ENROLL at top Universities overseas. Ubergrad has successfully guided more than 10,000+ students so far and has become a trusted partner of a study abroad aspirant. This is one of the best freelance projects I have done."
+          href="https://www.ubergrad.com/"
+          icon="graduation"
+          tags={["plop", "storybook", "Next.js", "django", "Razorpay"]}
+        />
+        <ProjectCard
+          title="melmaa"
+          description="Built an ecommerce application with real time payments and dashboard; Integrated Delhivery and RazorpayX"
+          href="https://www.melmaa.com/"
+          icon="melmaa"
           tags={["RazorpayX", "Next.js", "Spring boot", "Delhivery"]}
         />
 
@@ -92,12 +105,6 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Upcoming Projects
         </h3>
-        <ProjectCard
-          title="Algochurn"
-          description="Your last moment friend before a Technical Interview round. Practice the most popular Data Structures & Algorithms"
-          href="#"
-          icon="algochurn"
-        />
         <ProjectCard
           title="VSCode Resume"
           description="A VSCode themed resume for all the web developers out there. A UI which looks exactly like a React file-system based VSCode window with create and update operations."

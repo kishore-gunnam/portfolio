@@ -40,6 +40,36 @@ const Step = ({ title, children = null }) => {
 
 const FullTimeline = () => (
   <>
+    <Year>2020</Year>
+    <ul>
+      <Step title="Learned AWS services ✨">
+        Learned AWS services (S3, cloudfront, EC2)
+      </Step>
+      <Step title="Client project">
+        Built an ecommerce application from scratch with special features ( wallet, referrals and payment gateway integration ) using Next.js and spring boot.
+      </Step>
+      <Step title="Learned Next.js and Spring boot">
+      </Step>
+
+    </ul>
+    <Divider />
+    <Year>2019</Year>
+    <ul>
+      <Step title="Joined mroads">
+        {" "}
+        Joined{" "}
+        <span className="font-bold">
+          <span className="text-blue-500">m</span>roads
+        </span>{" "}
+        as a Software Development Engineer. Working on their Flagship product
+        as a Front-End Developer.
+      </Step>
+      <Step title="Placements - Got Placed ✨">
+        Had 3 offers in Hand. 3 On-Campus in the Software
+        Developer (Full-Stack) roles.
+      </Step>
+
+    </ul>
     <Divider />
     <Year>2018</Year>
     <ul>
@@ -174,36 +204,6 @@ export default function Timeline() {
         </Step>
       </ul>
       <Divider />
-      <Year>2020</Year>
-      <ul>
-        <Step title="Learned AWS services ✨">
-          Learned AWS services (S3, cloudfront, EC2)
-        </Step>
-        <Step title="Client project">
-          Built an ecommerce application from scratch with special features ( wallet, referrals and payment gateway integration ) using Next.js and spring boot.
-        </Step>
-        <Step title="Learned Next.js and Spring boot">
-        </Step>
-
-      </ul>
-      <Divider />
-      <Year>2019</Year>
-      <ul>
-        <Step title="Joined mroads">
-          {" "}
-          Joined{" "}
-          <span className="font-bold">
-            <span className="text-blue-500">m</span>roads
-          </span>{" "}
-          as a Software Development Engineer. Working on their Flagship product
-          as a Front-End Developer.
-        </Step>
-        <Step title="Placements - Got Placed ✨">
-          Had 3 offers in Hand. 3 On-Campus in the Software
-          Developer (Full-Stack) roles.
-        </Step>
-
-      </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (

@@ -11,7 +11,7 @@ export default function Home() {
     <Container
       title="Kishore Gunnam - Developer, Writer, Creator"
       description="Full-Stack developer, JavaScript and Typescript enthusiast, Freelancer and a Learner."
-      image="/kishore.jpg"
+      image="https://www.kishoregunnam.com/kishore.jpg"
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <div className="flex flex-row items-center space-x-4 mb-8">

@@ -22,7 +22,7 @@ export default function Container(props) {
   const meta = {
     title: "Kishore Gunnam – Developer, creator.",
     description: `Full-Stack developer, JavaScript and Typescript enthusiast, Freelancer and a Learner.`,
-    image: "https://www.kishoregunnam.com/kishore.png",
+    image: "https://www.kishoregunnam.com/kishore.jpg",
     type: "website",
     ...customMeta,
   };

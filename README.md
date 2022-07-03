@@ -7,15 +7,15 @@ The application is built with **Next.js/React/MDX**
 
 ## Overview
 
-- `pages/api/*` - API routes for the [`Dashboard`](https://kishoregunnam.com/dashboard). Contains Twitter, Spotify, and Google Analytics APIs.
+- `pages/api/*` - API routes for the [`Dashboard`](https://www.kishoregunnam.com/dashboard). Contains Twitter, Spotify, and Google Analytics APIs.
 
 - `pages/blog/*` - Static pages rendered using MDX
 
-- `pages/resources` - [Resources](https://kishoregunnam.com/resources) page
+- `pages/resources` - [Resources](https://www.kishoregunnam.com/resources) page
 
-- `pages/snippets` - [Snippets](https://kishoregunnam.com/snippets) page to see all the ready to use code snippets.
+- `pages/snippets` - [Snippets](https://www.kishoregunnam.com/snippets) page to see all the ready to use code snippets.
 
-- `pages/tweets` - my favourite [Tweets](https://kishoregunnam.com/tweets) from the twitter world.
+- `pages/tweets` - my favourite [Tweets](https://www.kishoregunnam.com/tweets) from the twitter world.
 
 - `pages/*` - All other static pages.
 

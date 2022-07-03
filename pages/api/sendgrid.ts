@@ -31,14 +31,14 @@ export default async (req, res) => {
               <div style="font-size: 16px;">
               <p>Thankyou for contacting me through my website. I'm excited to work with you.</p>
               <p><span class="spantext" style="font-weight: bold;">Reply</span> to this email with your requirements and I will get back to you.</p>
-              <p>Meanwhile, <a class="blog" href="https://kishoregunnam.com/blog/" style="text-decoration: none;color: blue;font-weight: bold;">checkout my blog</a> to get more insights about my work.</p>
+              <p>Meanwhile, <a class="blog" href="https://www.kishoregunnam.com/blog/" style="text-decoration: none;color: blue;font-weight: bold;">checkout my blog</a> to get more insights about my work.</p>
               <p>Or simply, just say Hi :) <a href="https://wa.me/917981312147?text=Hi" target="__blank" class="whatsapp" style="text-decoration: none;font-weight: bold;background: #10B981;padding: 4px;border-radius: 5px;color: white;">WhatsApp</a></p>
               <br>
               </div>
               <p class="footer" style="font-size: 16px;padding-bottom: 20px;border-bottom: 1px solid #D1D5DB;">Regards<br>Kishore Gunnam<br>Software Developer<br>+91 7981312147</p>
               <div class="footer-links" style="display: flex;justify-content: center;align-items: center;">
-                <a href="https://kishoregunnam.com/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Website</a>
-                <a href="https://kishoregunnam.com/blog/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Blog</a>
+                <a href="https://www.kishoregunnam.com/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Website</a>
+                <a href="https://www.kishoregunnam.com/blog/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Blog</a>
                 <a href="https://github.com/kishore-gunnam/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">GitHub</a>
                 <a href="https://instagram.com/kishore_gunnam/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Instagram</a>
                 <a href="https://linkedin.com/in/kishore-gunnam/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">LinkedIn</a>

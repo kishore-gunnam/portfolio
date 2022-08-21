@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"; 
+import { useState, useRef } from "react";
 
 import SuccessMessage from "@/components/SuccessMessage";
 import ErrorMessage from "@/components/ErrorMessage";
@@ -14,8 +14,8 @@ export default function Contact() {
     state: null,
     message: null
   });
-  const inputEl = useRef(null); 
-  
+  const inputEl = useRef(null);
+
   const subscribe = async (e) => {
     e.preventDefault();
     setForm({ state: "loading", message: null });

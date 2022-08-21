@@ -164,6 +164,12 @@ export default function Timeline() {
       </h3>
       <Year>2022</Year>
       <ul>
+        <Step title="StyledNext 👨‍💻">
+          Started working on StyledNext. There we create Professional, modern and beautiful templates built with React, Next.js and TailwindCSS.
+        </Step>
+        <Step title="Built and launched Algochurn  🎉">
+          Built Algochurn, A platform to practice DS ALgo along with front-end to ace your next technical interview.
+        </Step>
         <Step title="Algochurn 👨‍💻">
           Started working on Algochurn, a platform to help people learn algorithms.
         </Step>

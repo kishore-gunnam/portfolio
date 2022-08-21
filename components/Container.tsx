@@ -96,9 +96,9 @@ export default function Container(props) {
           <NextLink href="/">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
           </NextLink>
-          <NextLink href="/blog">
+          {/* <NextLink href="/blog">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
-          </NextLink>
+          </NextLink> */}
           <NextLink href="/snippets">
             <a className="p-1 sm:p-4 hidden md:inline text-gray-900 dark:text-gray-100">
               Snippets

@@ -22,14 +22,14 @@ export default function Home() {
               Hey, I’m Kishore Gunnam
             </h1>
             <h2 className="prose text-gray-600 dark:text-gray-400">
-              🖥 I’m a <span className="font-bold text-black">Full stack developer</span>, creator, and freelancer.
+              🖥 I’m a <span className="font-bold">Full stack developer</span>, creator, and freelancer.
             </h2>
             <h2 className="prose text-gray-600 dark:text-gray-400">
               🗒 I work at{" "}
               <span className="font-bold">
                 <span className="text-blue-500">m</span>roads
               </span>{" "}
-              as a <span className="font-bold text-black">Senior Software Engineer</span>.
+              as a <span className="font-bold">Senior Software Engineer</span>.
               <br />
             </h2>
             <span className="inline-block">

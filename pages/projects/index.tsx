@@ -11,7 +11,7 @@ export default function Home() {
       image="https://www.kishoregunnam.com/kishore.jpg"
     >
       <Projects />
-      <div className="flex flex-col justify-center items-start  mx-auto mb-16">
+      <div className="max-w-2xl w-full mx-auto">
         <Contact />
       </div>
     </Container>

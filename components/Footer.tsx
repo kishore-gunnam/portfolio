@@ -37,26 +37,31 @@ export default function Footer() {
           </ExternalLink> */}
         </div>
         <div className="flex flex-col space-y-4">
-          <Link href="/snippets">
+          {/* <Link href="/snippets">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Snippets
             </a>
-          </Link>
+          </Link> */}
           {/* <Link href="/tweets">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Tweets
             </a>
           </Link> */}
+          <Link href="/projects">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Projects
+            </a>
+          </Link>
           <Link href="/resources">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Resources
             </a>
           </Link>
-          <Link href="/demos">
+          {/* <Link href="/demos">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Live Demos
             </a>
-          </Link>
+          </Link> */}
         </div>
         <div className="flex flex-col space-y-4">
           <Link href="/">
@@ -70,11 +75,7 @@ export default function Footer() {
               Dashboard
             </a>
           </Link> */}
-          <Link href="/projects">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              Projects
-            </a>
-          </Link>
+
         </div>
       </div>
     </footer>

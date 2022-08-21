@@ -99,11 +99,11 @@ export default function Container(props) {
           {/* <NextLink href="/blog">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
           </NextLink> */}
-          <NextLink href="/snippets">
+          {/* <NextLink href="/snippets">
             <a className="p-1 sm:p-4 hidden md:inline text-gray-900 dark:text-gray-100">
               Snippets
             </a>
-          </NextLink>
+          </NextLink> */}
           <NextLink href="/projects">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
               Projects
